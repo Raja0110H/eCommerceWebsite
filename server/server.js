@@ -1,19 +1,19 @@
-// server
+server
 
-// const express = require("express");
-// const _ = require("lodash");
-// const path = require("path")
+const express = require("express");
+const _ = require("lodash");
+const path = require("path")
 
-// const app = express();
+const app = express();
 
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
-// app.get("/", (req, res) => {
-//   res.sendFile(__dirname + "index.html")
-// });
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "index.html")
+});
 
-// const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-// app.listen(PORT, function () {
-//   console.log(`Server started on port ${PORT}`);
-// });
+app.listen(PORT, function () {
+  console.log(`Server started on port ${PORT}`);
+});
