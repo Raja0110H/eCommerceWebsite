@@ -5,7 +5,6 @@ export default function SignInPage() {
     return (
         <div className="sign-in-and-sign-up">
             <SignInForm />
-        
         </div>
     )
 }

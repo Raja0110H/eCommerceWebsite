@@ -42,7 +42,7 @@ function Header({ currentUser, hidden }) {
             SIGN OUT
           </OptionLink>
         ) : (
-          <OptionLink to="/signin">SIGN IN</OptionLink>
+          <OptionLink to="/signup">SIGN UP</OptionLink>
         )}
         <CartIcon />
       </OptionsContainer>

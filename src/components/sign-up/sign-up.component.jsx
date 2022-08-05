@@ -118,9 +118,10 @@ class SignUp extends React.Component {
                 </CustomButton>
               </ButtonsBarContainer>
             </form>
+            <br />
             <a href="/signin">
               <p style={{ textDecoration: "underline", fontSize: "20px" }}>
-                I already have an account
+                Already have an account? Login
               </p>
             </a>
           </SignUpContainer>

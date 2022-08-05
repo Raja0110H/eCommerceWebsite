@@ -76,7 +76,7 @@ class SignIn extends React.Component {
             </CustomButton>
           </ButtonsBarContainer>
         </form>
-
+        <br />
         <a href="/signup">
           <p style={{ textDecoration: "underline", fontSize: "20px" }}>
             I don't have an account
