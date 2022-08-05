@@ -1,5 +1,5 @@
 {
-  "homepage":"https://Raja0110H.github.io/eCommerceWebsite",
+  "homepage":"https://Raja0110H.github.io/RCHSHOP",
   "name": "my-app",
   "version": "1.0.0",
   "description": "This wesite is a part of my portfilio",
@@ -39,7 +39,7 @@
   "scripts": {
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
