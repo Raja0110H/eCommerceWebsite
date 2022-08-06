@@ -25,6 +25,7 @@ export const CustomButtonContainer = styled.button`
     ${getButtonStyles}
 `
 const InvertedButtonStyles = css`
+
     background-color: white;
     color: black;
     border: 1px solid black;

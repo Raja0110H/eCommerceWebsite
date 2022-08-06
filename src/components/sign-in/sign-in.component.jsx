@@ -1,7 +1,7 @@
 import React from "react";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-
+import { OptionLink } from "../header/header.styles";
 import { auth, signInWithGoogle } from "../../firebase/firebase.utils";
 
 import {
@@ -76,12 +76,11 @@ class SignIn extends React.Component {
             </CustomButton>
           </ButtonsBarContainer>
         </form>
-        <br />
-        <a href="/signup">
-          <p style={{ textDecoration: "underline", fontSize: "20px" }}>
+        <OptionLink to="/signup">
+          <p style={{ textDecoration: "underline", fontSize: "20px",color:"black" }}>
             I don't have an account
           </p>
-        </a>
+        </OptionLink>
       </SignInContainer>
     );
   }

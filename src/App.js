@@ -10,7 +10,6 @@ import ShopPage from './Pages/shop/Shop.component'
 import SignUpPage from './Pages/sign-in-and-sign-up/sign_up_component'
 import SignInPage from "./Pages/sign-in-and-sign-up/sign_in_component";
 import CheckoutPage from './Pages/checkout/checkout.component'
-
 import Header from './components/header/header.component'
 
 
@@ -55,13 +54,13 @@ class App extends Component {
           <Route
             path="/signin"
             render={() =>
-              this.props.currentUser ? <Redirect to="/" /> : <SignInPage />
+              this.props.currentUser ? <Redirect to="/shop" /> : <SignInPage />
             }
           />
           <Route
             path="/signup"
             render={() =>
-              this.props.currentUser ? <Redirect to="/" /> : <SignUpPage />
+              this.props.currentUser ? <Redirect to="/shop" /> : <SignUpPage />
             }
           />
         </Switch>

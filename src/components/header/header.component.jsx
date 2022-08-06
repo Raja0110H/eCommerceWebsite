@@ -16,16 +16,23 @@ import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selector";
 
 function Header({ currentUser, hidden }) {
-  const [userName, setUserName] = useState("");
+  const [userEmail, setEmail] = useState("");
+  // const [userName, setUserName] = useState("");
 
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
-      const currentUserName = user.displayName;
-      setUserName(currentUserName);
+     
+      const email = user.email;
+     
+      setEmail(email)
     } else {
-      setUserName("");
+  
+       setEmail("");
     }
   });
+
+
+ 
 
   return (
     <HeaderContainer className="header">
@@ -34,7 +41,9 @@ function Header({ currentUser, hidden }) {
         <p>Home</p>
       </LogoContainer>
       <OptionsContainer>
-        <span> {userName}</span>
+        <span>{userEmail}</span>
+       
+
         <OptionLink to="/shop">SHOP</OptionLink>
         <OptionLink to="/contact">CONTACT</OptionLink>
         {currentUser ? (

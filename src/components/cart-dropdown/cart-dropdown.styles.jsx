@@ -12,7 +12,7 @@ export const CartDropDownContainer = styled.div`
     border-radius: 3px;
     background-color: white;
     top: 90px;
-    right: 40px;
+    right: 200px;
     z-index: 1;
     box-shadow: 0px 7px 16px 7px rgba(0,0,0,0.5);
 `

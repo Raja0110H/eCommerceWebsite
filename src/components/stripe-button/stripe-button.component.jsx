@@ -14,7 +14,6 @@ export default function StripeButton({ price, isDisabled }) {
         if (token) {
            console.log("payment sucessfull")
            
-            
         }  
      
     }

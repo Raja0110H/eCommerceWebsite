@@ -4,10 +4,10 @@ import 'firebase/auth'
 
 var config = {
   apiKey: `${process.env.REACT_APP_MY_API_KEY}`,
-  authDomain: "ecom-db-f8713.firebaseapp.com",
-  databaseURL: `${process.env.DATABASE_URL}`,
+  authDomain: `${process.env.REACT_APP_AUTH_DOMAIN}`,
+  databaseURL: `${process.env.REACT_APP_DATABASE_URL}`,
   projectId: "ecom-db-f8713",
-  storageBucket: "ecom-db-f8713.appspot.com",
+  storageBucket: `${process.env.REACT_APP_STORAGE_BUCKET}`,
   messagingSenderId: "39362193920",
   appId: "1:39362193920:web:31d9128b6ebb77dc5d86e5",
   measurementId: "G-E4NJ30JCLD",

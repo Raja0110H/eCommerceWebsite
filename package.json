@@ -1,5 +1,4 @@
 {
-  "homepage":"https://Raja0110H.github.io/eCommerceWebsite",
   "name": "my-app",
   "version": "1.0.0",
   "description": "This wesite is a part of my portfilio",
@@ -37,8 +36,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -65,8 +62,5 @@
   "license": "ISC",
   "engines": {
     "node": "16.14.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
