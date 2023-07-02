@@ -1,6 +1,6 @@
 # Some basic Git commands are:
 
-$ git clone https://github.com/Raja0110H/Project-Planner-SamplePG.git   --- in terminal     
+$ git clone  
 $ cd project  --- in terminal
 
 # Install  Dependecies
@@ -11,7 +11,7 @@ $ npm install --- in terminal
 $ npm start --- in terminal
   
 # website url  
-https://raja0110h.github.io/Project-Planner-SamplePG/
+
 
 # tools
 
