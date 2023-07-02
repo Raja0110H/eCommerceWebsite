@@ -10,8 +10,6 @@ $ npm install --- in terminal
 # run project 
 $ npm start --- in terminal
   
-# website url  
-
 
 # tools
 
