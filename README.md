@@ -8,6 +8,7 @@ $ cd project  --- in terminal
 $ npm install --- in terminal
 
 # run project 
+$ npm config set legacy-peer-deps true  --- in terminal 
 $ npm start --- in terminal
 
 # tools
