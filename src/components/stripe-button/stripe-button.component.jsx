@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import StripeCheckout from 'react-stripe-checkout'
 export default function StripeButton({ price, isDisabled }) {
-    const label = 'Pay Now'
+    const label = <h3 style={{width:"180px", height:"150px"}}>Pay Now</h3>
     const priceForStripe = price * 100
     const publishableKey = `${process.env.REACT_APP_STRIPE_API_KEY}`;
     

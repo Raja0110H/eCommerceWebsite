@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import CustomButton from '../custum-button/CustumButton'
+import CustomButton from '../custom-button/custom-button.component'
 
 export const CartDropDownContainer = styled.div`
     position: absolute;
