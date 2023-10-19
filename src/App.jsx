@@ -14,13 +14,13 @@ import { setCurrentUser } from "./redux/user/user-actions";
 import GlobalStyles from "./global-styles";
 import Spinner from "./components/spinner/Spinner";
 import ErrorBoundary from "./components/error-boundary/ErrorBoundary";
-import ItemDetailsPage from "./pages/items-details/item-detail";
+import ItemDetailsPage from "./Pages/items-details/item-detail";
 
-import HomePage from "./pages/homepage/Homepage";
-import ShopPage from "./pages/shop/Shop";
-import RegistrationPage from "./pages/account-registration/Register";
-import CheckoutPage from "./pages/checkout/checkout";
-import ContactPage from "./pages/contact/contact.component";
+import HomePage from "./Pages/homepage/Homepage";
+import ShopPage from "./Pages/shop/Shop";
+import RegistrationPage from "./Pages/account-registration/Register";
+import CheckoutPage from "./Pages/checkout/checkout";
+import ContactPage from "./Pages/contact/contact.component";
 
 const App = ({ currentUser, setCurrentUser }) => {
 	// let unsubscribeFromAuth = null;

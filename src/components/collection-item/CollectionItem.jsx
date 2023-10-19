@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { addItem } from "../../redux/cart/cart-actions";
 
 import { CollectionItemContainer, CollectionFooterContainer, AddButton, BackgroundImage, NameContainer, PriceContainer } from "./collection-item-styles";
-import { getItemhandler } from "../../pages/items-details/item-detail";
+import { getItemhandler } from "../../Pages/items-details/item-detail";
 
 const CollectionItem = ({ item, addItem }) => {
 
